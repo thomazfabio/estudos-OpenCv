@@ -20,7 +20,7 @@ imgImputFileCez.addEventListener('change', (e) => {
 
 // reseta imagem CEZ
 btnResetImgCez.addEventListener('click', function () {
-    imgCez.src = '/img/no-image.png';
+    imgCez.src = '/escala-de-cinza/img/no-image.png';
     imgCez.style.border = "none";
 });
 
@@ -41,7 +41,7 @@ btnprocessarImgCez.addEventListener('click', function () {
 btnResetCezPos.addEventListener('click', function () {
     canvasOutput.style.display = 'none';
     imgOutCez.style.display = 'block';
-    imgOutCez.src = '/img/no-image.png';
+    imgOutCez.src = '/escala-de-cinza/img/no-image.png';
     imgOutCez.style.border = "none";
 });
 

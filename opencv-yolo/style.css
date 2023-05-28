@@ -1,0 +1,43 @@
+/* Reset de CSS */
+
+/* Definir o tamanho da fonte base para 16 pixels */
+html {
+    font-size: 16px;
+}
+
+/* Remover decoração de link padrão */
+a {
+    text-decoration: none;
+}
+
+/* Definir cores padrão para o texto */
+body {
+    color: #000;
+    background: #d0f5d8;
+}
+header{
+    margin: auto;
+    width: 800px;
+    
+}
+header img{
+    border-radius: 0 0  10px 10px;
+    width: 800px;
+    height: 180px;
+}
+footer{
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 800px;
+    height: 50px;
+    background-color: #5a5959;
+    color: #fff;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 12px;
+}
+
+main{
+    margin: auto;
+    width: 800px;
+}

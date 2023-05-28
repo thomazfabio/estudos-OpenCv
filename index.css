@@ -1,0 +1,20 @@
+#h1-header-up {
+    font-family: 'Arial', sans-serif;
+    /* Substitua pela sua fonte desejada */
+    font-size: 48px;
+    /* Ajuste o tamanho da fonte conforme necessário */
+    color: #72ccd8;
+    /* Cor do texto */
+    /* text-shadow: 0 0 8px #0004ff, 0 0 16px #0004ff, 0 0 32px #0004ff, 0 0 64px #0004ff, 0 0 24px #0004ff, 0 0 28px #0004ff, 0 0 30px #0004ff; */
+
+}
+
+
+
+.alert-neon {
+    height: 45px;
+    background-color: #104e10;
+    border-color: #43ff14;
+    color: #000000;
+    text-shadow: 0 0 8px #39ff14, 0 0 16px #39ff14, 0 0 32px #39ff14, 0 0 64px #39ff14, 0 0 128px #39ff14;
+}

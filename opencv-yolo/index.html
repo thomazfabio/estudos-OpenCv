@@ -24,11 +24,12 @@
         </div>
         <div class="container-fluid d-flex m-0 p-0">
             <div name="div-img" class="rounded-3">
-                <img id="img-imput" class="img" src="img/no-img.png" alt="" style="width: 520px; height: 390px;">
+                <img id="img-input" class="img" src="img/no-img.png" alt="" style="width: 520px; height: 390px;">
             </div>
 
             <div name="div-controles" class="container d-flex flex-column justify-content-evenly rounded-3" style="margin-left:20px; background-color: rgb(223, 219, 219);">
-                <button class="btn btn-primary ">Carregar Imagem</button>
+                <input type="file" id="imput-img" name="img-input" accept="image/*" style="display: none;"></input>
+                <button class="btn btn-primary" id="btn-upload">Carregar Imagem</button>
                 <button class="btn btn-primary ">Carregar Modelo</button>
                 <button class="btn btn-primary ">Carregar CFG</button>
                 <button class="btn btn-success ">Processar</button>
@@ -54,7 +55,7 @@
     <footer>
         <p>Autor: Fabio Thomaz Da Silva - fabio_thomaz@live.com</p>  
     </footer>
-
+    <script src="main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
